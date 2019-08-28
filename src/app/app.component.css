@@ -1,0 +1,49 @@
+.universe {
+    background-color: var(--bg);
+}
+
+.header {
+    background-image: linear-gradient(var(--pc), var(--pc1));
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+}
+
+.container {
+    max-width: 450px;
+    margin: 25px auto;
+}
+
+.content {
+    min-height: 450px;
+    text-align: center;
+}
+
+.footer {
+    background-color: var(--light);
+    display: flex;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hf-container {
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    color: rgb(255, 196, 0);
+    font-size: 24px;
+}
+
+.this-week {
+    font-size: 30px;
+    margin: 40px auto;
+    background-image: linear-gradient(var(--sc), var(--sc1));
+    padding: 14px;
+    color: var(--light);
+}

@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+:root {
+    --pc: rgb(31, 204, 98);
+    --pc1:rgb(49, 240, 122);
+    --sc: #004e6d;
+    --sc1: #44caff;
+
+    --bg: rgb(255, 255, 255);
+
+    --light: rgb(235, 235, 235);
+    --dark: rgb(20, 20, 20);
+}
