@@ -3,11 +3,13 @@
 }
 
 .header {
-    background-image: linear-gradient(var(--pc), var(--pc1));
+    background-image: linear-gradient(to right, rgb(31, 31, 31), rgb(15, 58, 35));
     display: flex;
     margin: auto;
     text-align: center;
-    font-size: 60px;
+    font-size: 48px;
+    font-family: 'Monda', sans-serif;
+    color: white;
 }
 
 .container {
@@ -18,14 +20,17 @@
 .content {
     min-height: 450px;
     text-align: center;
+    font-family: 'Monda', sans-serif;
+    font-size: 20px;
 }
 
 .footer {
     background-color: var(--light);
     display: flex;
     margin: auto;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
+    font-family: 'Monda', sans-serif;
 }
 
 .hf-container {
@@ -41,9 +46,32 @@ li {
 }
 
 .this-week {
-    font-size: 30px;
+    font-size: 20px;
     margin: 40px auto;
-    background-image: linear-gradient(var(--sc), var(--sc1));
+    background-image: linear-gradient(to top left,  rgb(7, 26, 15), rgb(32, 32, 32));
     padding: 14px;
+    border-radius: 12px;
     color: var(--light);
+}
+
+.scripture {
+    font-size: 16px;
+}
+
+.subscript {
+    font-size: 9px;
+}
+
+.time {
+    color: rgb(254, 255, 172);
+}
+
+.precol {
+    margin-top: 16px;
+    text-decoration: underline;
+}
+
+.title {
+    text-decoration: underline;
+    font-size: 28px;
 }
