@@ -75,3 +75,8 @@ li {
     text-decoration: underline;
     font-size: 28px;
 }
+
+.map-image {
+    height: auto;
+    width: 100%;
+}
