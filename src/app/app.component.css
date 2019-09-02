@@ -1,9 +1,21 @@
 .universe {
-    background-color: var(--bg);
+    background-color: var(--dark);
+    margin: auto;
+}
+
+.mobile-container {
+    max-width: 420px;
+    background-color: var(--dark);
+    margin: auto;
+
+}
+
+html {
+    background-color: var(--dark);
 }
 
 .header {
-    background-image: linear-gradient(to right, rgb(31, 31, 31), rgb(15, 58, 35));
+    background-image: linear-gradient(to right, rgb(190, 190, 190), rgb(255, 255, 255));
     display: flex;
     margin: auto;
     text-align: center;
@@ -18,10 +30,13 @@
 }
 
 .content {
-    min-height: 450px;
+    /* min-height: 450px; */
     text-align: center;
     font-family: 'Monda', sans-serif;
     font-size: 20px;
+    color: var(--light);
+    margin-top: 0px;
+    padding-top: 16px;
 }
 
 .footer {
@@ -34,6 +49,7 @@
 }
 
 .hf-container {
+
     max-width: 450px;
     margin: auto;
     text-align: center;
@@ -45,17 +61,27 @@ li {
     font-size: 24px;
 }
 
+
 .this-week {
+    min-height: 450px;
     font-size: 20px;
     margin: 40px auto;
-    background-image: linear-gradient(to top left,  rgb(7, 26, 15), rgb(32, 32, 32));
+    /* background-image: linear-gradient(to top left,  rgb(4, 29, 25), rgb(66, 66, 66)); */
+    background-color: black;
+    background-image: url('../assets/texture.jpg');
+    background-size: contain;
     padding: 14px;
     border-radius: 12px;
-    color: var(--light);
+    color: var(--dark);
+    background-image: url('../assets/morning-this-week.jpg'); 
+    /* color: var(--light); */
+    
+    width: 80%;
 }
 
 .scripture {
     font-size: 16px;
+    color: #f3e56a;
 }
 
 .subscript {
@@ -63,7 +89,7 @@ li {
 }
 
 .time {
-    color: rgb(254, 255, 172);
+    color: #682929;
 }
 
 .precol {
@@ -78,5 +104,5 @@ li {
 
 .map-image {
     height: auto;
-    width: 100%;
+    width: 90%;
 }
