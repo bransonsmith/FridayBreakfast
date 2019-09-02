@@ -69,8 +69,8 @@ li {
 
 
 .this-week {
-    height: 483px;
-    width: 364px;
+    height: 454px;
+    width: 338px;
     font-size: 20px;
     margin: 40px auto;
     /* background-image: linear-gradient(to top left,  rgb(4, 29, 25), rgb(66, 66, 66)); */
@@ -82,8 +82,7 @@ li {
     color: var(--dark);
     background-image: url('../assets/morning-this-week.jpg'); 
     /* color: var(--light); */
-    
-    width: 80%;
+
 }
 
 .scripture {
