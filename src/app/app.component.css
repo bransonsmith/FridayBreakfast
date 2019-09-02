@@ -69,7 +69,8 @@ li {
 
 
 .this-week {
-    min-height: 450px;
+    height: 483px;
+    width: 364px;
     font-size: 20px;
     margin: 40px auto;
     /* background-image: linear-gradient(to top left,  rgb(4, 29, 25), rgb(66, 66, 66)); */
