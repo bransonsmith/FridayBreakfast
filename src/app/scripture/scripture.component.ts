@@ -65,8 +65,8 @@ export class ScriptureComponent implements OnInit {
   }
 
   getVerse() {
-    this.verse = 'Ephesians 2';
-    this.text = 'But God, being rich in mercy, because of the great love with which he loved us, even when we were dead in our trespasses, made us alive together with Christ...';
+    this.verse = 'TBD';
+    this.text = 'Praison will be picking for this week soon!';
 
 
   }

@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'friday-breakfast';
 }
 
-const verse = 'Jordan will be picking something soon for this week!';
+const verse = 'Praison will be picking something soon for this week!';
 
 
 // const params = {
