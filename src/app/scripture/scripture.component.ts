@@ -65,8 +65,8 @@ export class ScriptureComponent implements OnInit {
   }
 
   getVerse() {
-    this.verse = 'Scripture TBD';
-    this.text = 'Branson will be picking this week!';
+    this.verse = 'Matt. 13: 24-34';
+    this.text = 'Jesus spoke all these things in parables to the crowds...';
 
 
   }
